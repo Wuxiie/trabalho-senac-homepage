@@ -1,0 +1,257 @@
+
+/* Estilos para a seção de início */
+
+.faixa-1 {
+    text-align: center;
+    background-image: url('/public/assets/images/serra.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 10px 20px 200px 20px;
+    
+}
+
+.faixa-1 header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+
+
+}
+
+.faixa-1 header img {
+    width: 150px;
+    
+    
+}
+    
+
+.faixa-1 header nav {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.faixa-1 header nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18 px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.faixa-1 > h1 {
+    color: #ffffff;
+    font-family: ' Inter' ;
+    font-size: 50px;
+    
+
+}
+
+.faixa-1 > p {
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    
+}
+
+/* Estilos para a seção Galeria */
+.cachoeiras-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #444;
+    color: #fff;
+    
+}
+
+.cachoeiras-section h1 {
+    font-size: 2em;
+
+    
+}
+
+.cachoeiras-section p {
+    font-size:20px;
+    margin-bottom: 20px;
+    
+}
+
+.imagem-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem-item {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+}
+
+.imagem-item img {
+    width: 100%;
+    max-height: 400px; 
+    border-radius: 2%;
+    object-fit: cover;
+    object-position: 80% 100%
+}
+
+/* Estilos para a seção faixa-3 */
+.faixa-3 {
+   
+    background-color: #444;
+    padding: 20px;
+    padding: 20px;
+    font-family: 'poppins';
+    
+    
+}
+
+.faixa-3  h1 {
+    color: #f2f2f2;
+    font: 40px 'work sans';
+    margin-bottom: 20px ;
+}
+.f3-colunas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+   
+    
+}
+.f3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.f3-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.f3-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.f3 h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.f3 p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* Estilos para a seção de Faixa-4 */
+
+.faixa-4 {
+    background-image: url('/public/assets/images/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0,5); 
+    display: flex;
+    align-items: flex-start; 
+    min-height: 400px;
+    padding: 20px; 
+  }
+  
+  .f4-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 40px;
+    border-radius: 10px; 
+    color: #fff;
+  }
+ 
+  .f4-texto h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+
+  }
+  .f4-texto p {
+    font-size: 30px;
+  }
+
+ 
+
+  /* Estilo para a seção Faixa-5 */
+.faixa-5 {
+    background-color: #303030;
+    padding: 40px 0;
+    text-align: center;
+    color: #f2f2f2;
+  }
+  
+  .f5-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #163a22;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00b327;
+  }
+  
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
